@@ -1,0 +1,17 @@
+alex-pex.theme-darkula
+anysphere.remote-containers
+anysphere.remote-ssh
+charliermarsh.ruff
+emilast.logfilehighlighter
+github.vscode-github-actions
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
+nonoroazoro.syncing
+openai.chatgpt
