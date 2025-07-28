@@ -20,3 +20,9 @@ compinit
 git clone --depth=1 https://github.com/thepowerfuldeez/config.git config/
 bash config/install.sh
 ```
+
+
+VSCode extensions
+```bash
+cat extensions.txt | xargs -n 1 code --install-extension
+```
