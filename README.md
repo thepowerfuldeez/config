@@ -1,5 +1,6 @@
 ## Install
 ```bash
+git clone --depth=1 https://github.com/thepowerfuldeez/config.git config/ && cd config
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew bundle
 
@@ -17,8 +18,6 @@ compinit
 # End of Docker CLI completions
 ' >> ~/.zshrc
 
-git clone --depth=1 https://github.com/thepowerfuldeez/config.git config/
-bash config/install.sh
 ```
 
 
