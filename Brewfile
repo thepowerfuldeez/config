@@ -40,6 +40,12 @@ brew "wget"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+cask "chatgpt"
+cask "iterm2"
+cask "raycast"
+cask "arc"
+cask "notion"
+cask "notion-calendar"
 # Aria2 GUI
 cask "aria2d"
 # Visual scope for coffee roasters
