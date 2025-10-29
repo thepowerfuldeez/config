@@ -40,6 +40,7 @@ brew "wget"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+cask "spotify"
 cask "chatgpt"
 cask "iterm2"
 cask "raycast"
