@@ -10,6 +10,10 @@ brew "pcre2"
 brew "docker"
 # Modern, maintained replacement for ls
 brew "eza"
+# Fast, friendly alternative to find
+brew "fd"
+# Command-line fuzzy finder
+brew "fzf"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line tools for fly.io services
@@ -26,6 +30,8 @@ brew "neovim"
 brew "node"
 # Object-relational database system
 brew "postgresql@14", restart_service: :changed
+# Line-oriented search tool
+brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Cross-shell prompt for astronauts
@@ -36,6 +42,8 @@ brew "tmux"
 brew "vercel-cli"
 # Internet file retriever
 brew "wget"
+# Fast directory jumper
+brew "zoxide"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
