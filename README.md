@@ -1,27 +1,28 @@
 ## Install
+Quick install (SSH):
 ```bash
-git clone --depth=1 https://github.com/thepowerfuldeez/config.git config/ && cd config
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew bundle
-
-echo '
-alias ls=eza
-alias pip="uv pip"
-alias python=python3
-alias vim=nvim
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/george/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
-# End of Docker CLI completions
-' >> ~/.zshrc
-
+git clone --depth=1 git@github.com:thepowerfuldeez/config.git ~/config
+~/config/install.sh
 ```
 
-
-VSCode extensions
+Or run the minimal install script directly:
 ```bash
-cat extensions.txt | xargs -n 1 code --install-extension
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thepowerfuldeez/config/main/install.sh)"
+```
+
+What it does:
+- Installs Homebrew if missing
+- Runs `brew bundle` for formulas/casks/VS Code extensions
+- Appends `zshrc.snippet` if not already present
+- Ensures `~/.local/bin/env` + PATH hooks
+- Copies Neovim + VS Code settings
+- Installs `zsh-startup-profiler` into `~/.local/bin`
+
+Manual imports:
+- iTerm2: import `iTerm2 State.itermexport`
+- VS Code profile: import `default.code-profile` (optional)
+
+VS Code extensions (manual alternative):
+```bash
+xargs -n 1 code --install-extension < vscode-extensions.txt
 ```
