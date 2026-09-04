@@ -1,0 +1,165 @@
+{
+  "lastVersion": "4.1.1",
+  "commandIdsFixed": true,
+  "positionStyle": "top",
+  "aestheticStyle": "tiny",
+  "enableTopToolbar": true,
+  "enableFollowingToolbar": false,
+  "enableFixedToolbar": false,
+  "enableMultipleConfig": false,
+  "cMenuVisibility": true,
+  "menuCommands": [
+    {
+      "id": "editing-toolbar:toggle-bold",
+      "name": "Bold",
+      "icon": "bold"
+    },
+    {
+      "id": "editing-toolbar:toggle-italics",
+      "name": "Italic",
+      "icon": "italic"
+    },
+    {
+      "id": "editing-toolbar:header2-text",
+      "name": "Heading",
+      "icon": "heading-2"
+    },
+    {
+      "id": "editing-toolbar:toggle-bullet-list",
+      "name": "List",
+      "icon": "list"
+    },
+    {
+      "id": "editing-toolbar:editor:toggle-code",
+      "name": "Inline code",
+      "icon": "code"
+    },
+    {
+      "id": "editing-toolbar:codeblock",
+      "name": "Code block",
+      "icon": "square-code"
+    },
+    {
+      "id": "editing-toolbar:insert-link",
+      "name": "Link",
+      "icon": "link"
+    },
+    {
+      "id": "editing-toolbar:editor:insert-table",
+      "name": "Table",
+      "icon": "table"
+    },
+    {
+      "id": "editing-toolbar:insert-callout",
+      "name": "Callout",
+      "icon": "message-square"
+    }
+  ],
+  "topCommands": [
+    {
+      "id": "editing-toolbar:toggle-bold",
+      "name": "Bold",
+      "icon": "bold"
+    },
+    {
+      "id": "editing-toolbar:toggle-italics",
+      "name": "Italic",
+      "icon": "italic"
+    },
+    {
+      "id": "editing-toolbar:header2-text",
+      "name": "Heading",
+      "icon": "heading-2"
+    },
+    {
+      "id": "editing-toolbar:toggle-bullet-list",
+      "name": "List",
+      "icon": "list"
+    },
+    {
+      "id": "editing-toolbar:editor:toggle-code",
+      "name": "Inline code",
+      "icon": "code"
+    },
+    {
+      "id": "editing-toolbar:codeblock",
+      "name": "Code block",
+      "icon": "square-code"
+    },
+    {
+      "id": "editing-toolbar:insert-link",
+      "name": "Link",
+      "icon": "link"
+    },
+    {
+      "id": "editing-toolbar:editor:insert-table",
+      "name": "Table",
+      "icon": "table"
+    },
+    {
+      "id": "editing-toolbar:insert-callout",
+      "name": "Callout",
+      "icon": "message-square"
+    }
+  ],
+  "followingCommands": [],
+  "fixedCommands": [],
+  "mobileCommands": [
+    {
+      "id": "editing-toolbar:toggle-bold",
+      "name": "Bold",
+      "icon": "bold"
+    },
+    {
+      "id": "editing-toolbar:toggle-italics",
+      "name": "Italic",
+      "icon": "italic"
+    },
+    {
+      "id": "editing-toolbar:header2-text",
+      "name": "Heading",
+      "icon": "heading-2"
+    },
+    {
+      "id": "editing-toolbar:toggle-bullet-list",
+      "name": "List",
+      "icon": "list"
+    },
+    {
+      "id": "editing-toolbar:editor:toggle-code",
+      "name": "Inline code",
+      "icon": "code"
+    },
+    {
+      "id": "editing-toolbar:codeblock",
+      "name": "Code block",
+      "icon": "square-code"
+    },
+    {
+      "id": "editing-toolbar:insert-link",
+      "name": "Link",
+      "icon": "link"
+    },
+    {
+      "id": "editing-toolbar:editor:insert-table",
+      "name": "Table",
+      "icon": "table"
+    },
+    {
+      "id": "editing-toolbar:insert-callout",
+      "name": "Callout",
+      "icon": "message-square"
+    }
+  ],
+  "customCommands": [],
+  "cMenuWidth": 440,
+  "isLoadOnMobile": true,
+  "ai": {
+    "enabled": false,
+    "showAIContextMenu": false,
+    "consentAccepted": false,
+    "onboardingShown": true,
+    "enableInlineCompletion": false,
+    "enableRewrite": false
+  }
+}

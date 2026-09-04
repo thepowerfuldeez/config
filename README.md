@@ -104,3 +104,14 @@ brew bundle list --file Brewfile
 Install the theme in `~/.config/ghostty/themes/` before standalone Ghostty
 validation. The installer does this automatically. `init.vim` and the shell
 startup profiler remain available from the previous setup.
+
+## Obsidian
+
+The [Obsidian configuration export](obsidian/README.md) preserves the theme,
+plugins, shortcuts and custom workflow, with freeform experiment writing,
+Markdown formatting controls and a tag-based graph. Notes and attachments stay
+in iCloud Drive. Restore separately into an existing vault with Obsidian closed:
+
+```bash
+python3 obsidian/restore.py '/path/to/your/vault'
+```

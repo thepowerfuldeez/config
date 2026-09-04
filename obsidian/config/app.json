@@ -1,0 +1,15 @@
+{
+  "promptDelete": false,
+  "propertiesInDocument": "hidden",
+  "defaultViewMode": "source",
+  "attachmentFolderPath": "Media",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "inbox",
+  "userIgnoreFilters": [
+    "knowledge-base/Sources/"
+  ],
+  "livePreview": true,
+  "readableLineLength": true,
+  "spellcheck": false
+}

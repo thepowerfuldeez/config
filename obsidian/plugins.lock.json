@@ -1,0 +1,172 @@
+[
+  {
+    "id": "obsidian-advanced-uri",
+    "repo": "vinzent03/obsidian-advanced-uri",
+    "version": "1.46.0",
+    "files": [
+      {
+        "name": "main.js",
+        "url": "https://github.com/Vinzent03/obsidian-advanced-uri/releases/download/1.46.0/main.js",
+        "sha256": "386e8142ab42475832d9657d97a7db17a3aea5fd9b67e5eb009ecd04130c37ac",
+        "append": "\n/* nosourcemap */",
+        "installedSha256": "431d89fdc0fcef2e0fed231519a09bd02ab87468045935c54561d5c55cc30822"
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/Vinzent03/obsidian-advanced-uri/releases/download/1.46.0/manifest.json",
+        "sha256": "6c201139ab162b400bcaea72828d1205d2273eb2034ef3075522150c86788f3a"
+      }
+    ]
+  },
+  {
+    "id": "obsidian-tasks-plugin",
+    "repo": "obsidian-tasks-group/obsidian-tasks",
+    "version": "7.4.0",
+    "files": [
+      {
+        "name": "main.js",
+        "url": "https://github.com/obsidian-tasks-group/obsidian-tasks/releases/download/7.4.0/main.js",
+        "sha256": "e42f907933cec0d9ca4e4bb405ab402674aa31005fdf1b65ab844367bf1603cd"
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/obsidian-tasks-group/obsidian-tasks/releases/download/7.4.0/manifest.json",
+        "sha256": "968d6694a8934beb361cb3fd858bd36fad232baaa2b5301918a868961f85c517"
+      },
+      {
+        "name": "styles.css",
+        "url": "https://github.com/obsidian-tasks-group/obsidian-tasks/releases/download/7.4.0/styles.css",
+        "sha256": "dd9d11746ee5d0e299db99a3132957d37f0e913c40cdf96d385c59ffa740fa53"
+      }
+    ]
+  },
+  {
+    "id": "obsidian-auto-link-title",
+    "repo": "zolrath/obsidian-auto-link-title",
+    "version": "1.5.4",
+    "files": [
+      {
+        "name": "main.js",
+        "url": "https://github.com/zolrath/obsidian-auto-link-title/releases/download/1.5.4/main.js",
+        "sha256": "7a9f482c9875fa6f9954dc237af675dbbc5a91d6dab4f5abba8422bcf7f0376f"
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/zolrath/obsidian-auto-link-title/releases/download/1.5.4/manifest.json",
+        "sha256": "81d2da4733a96580061afed4a2c8467dd52403d55a53c3d8e5604230835d0dd8"
+      },
+      {
+        "name": "styles.css",
+        "url": "https://github.com/zolrath/obsidian-auto-link-title/releases/download/1.5.4/styles.css",
+        "sha256": "040d99c787acf90dba4374c21b67417dde43acc59ed4ab9bcee510bfbc4508b2"
+      }
+    ]
+  },
+  {
+    "id": "dataview",
+    "repo": "blacksmithgu/obsidian-dataview",
+    "version": "0.5.66",
+    "files": [
+      {
+        "name": "main.js",
+        "url": "https://github.com/blacksmithgu/obsidian-dataview/releases/download/0.5.66/main.js",
+        "sha256": "55bc1d6dac298b0e50986974078219ada56dd0113c8737d211791426c206cce5"
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/blacksmithgu/obsidian-dataview/releases/download/0.5.66/manifest.json",
+        "sha256": "f944872a111b8592cedaaec31dab0eefa91725f19850c79a2d359e7d5d2834cc"
+      },
+      {
+        "name": "styles.css",
+        "url": "https://github.com/blacksmithgu/obsidian-dataview/releases/download/0.5.66/styles.css",
+        "sha256": "cfc4ffbd7a507df70d6a7d248561a4b39bf6cb545bb8478a5a80ac8eee18c46c"
+      }
+    ]
+  },
+  {
+    "id": "obsidian-minimal-settings",
+    "repo": "kepano/obsidian-minimal-settings",
+    "version": "8.0.2",
+    "files": [
+      {
+        "name": "main.js",
+        "url": "https://github.com/kepano/obsidian-minimal-settings/releases/download/8.0.2/main.js",
+        "sha256": "9b4d6b630c109268bd0a2284193c30375de6def31d3b57c212b38284c82d2369"
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/kepano/obsidian-minimal-settings/releases/download/8.0.2/manifest.json",
+        "sha256": "1f04db021c3eed646ec519b199f6ee3c6e7ed813c84b01074cea8f5a7da871aa"
+      },
+      {
+        "name": "styles.css",
+        "url": "https://github.com/kepano/obsidian-minimal-settings/releases/download/8.0.2/styles.css",
+        "sha256": "85f43a4dac1f740125a4b86801f75a7431a794ff85585c17446fb653f5c8d31e"
+      }
+    ]
+  },
+  {
+    "id": "notebook-navigator",
+    "repo": "johansan/notebook-navigator",
+    "version": "3.3.6",
+    "files": [
+      {
+        "name": "main.js",
+        "url": "https://github.com/johansan/notebook-navigator/releases/download/3.3.6/main.js",
+        "sha256": "055cc74ac9ecf63194500c909d9b714c7e431145e38147343a2455a0d9c49676",
+        "append": "\n/* nosourcemap */",
+        "installedSha256": "9b7296f5e73a38e76fa7a3d0d058d5c638f0eeb5e8935ed59877bf59f0f03a9e"
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/johansan/notebook-navigator/releases/download/3.3.6/manifest.json",
+        "sha256": "3803d9fbebd5a9ce13ec328d27f82a746e8642802222f1537295cfce384a85a6"
+      },
+      {
+        "name": "styles.css",
+        "url": "https://github.com/johansan/notebook-navigator/releases/download/3.3.6/styles.css",
+        "sha256": "14a960e04384a2c5fedb02af2db0c8ca24fa463a1eae2eede8228eff5b0696e3"
+      }
+    ]
+  },
+  {
+    "id": "editing-toolbar",
+    "repo": "PKM-er/obsidian-editing-toolbar",
+    "version": "4.1.1",
+    "files": [
+      {
+        "name": "main.js",
+        "url": "https://github.com/PKM-er/obsidian-editing-toolbar/releases/download/4.1.1/main.js",
+        "sha256": "74833b2d66a7922929bde14ecdbbec7ffae39bc4432b2fb09185b16e26666f10"
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/PKM-er/obsidian-editing-toolbar/releases/download/4.1.1/manifest.json",
+        "sha256": "11cc5b2ed6a668d744dbdcbe43dc09d96336156a5e4920fd3075804407105b85"
+      },
+      {
+        "name": "styles.css",
+        "url": "https://github.com/PKM-er/obsidian-editing-toolbar/releases/download/4.1.1/styles.css",
+        "sha256": "9e640edaa93e92d13cf76506ff53502e46bc45ab1c6927d774f34da0ccd4ce11"
+      }
+    ]
+  },
+  {
+    "id": "tag-wrangler",
+    "repo": "pjeby/tag-wrangler",
+    "version": "0.6.5",
+    "files": [
+      {
+        "name": "main.js",
+        "url": "https://github.com/pjeby/tag-wrangler/releases/download/0.6.5/main.js",
+        "sha256": "f390bf135135033cb2b8485438af42efb993ddd93255ac0836016e112ee9ab20"
+      },
+      {
+        "name": "manifest.json",
+        "url": "https://github.com/pjeby/tag-wrangler/releases/download/0.6.5/manifest.json",
+        "sha256": "271a93e605b09f689fb4b05af1f73f5080e0876fc247635e4fe9e2c2d88ada96"
+      }
+    ]
+  }
+]

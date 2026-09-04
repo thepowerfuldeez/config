@@ -1,0 +1,58 @@
+{
+  "collapse-filter": true,
+  "search": "-path:\"Templates\" -path:\"Media\" -path:\"knowledge-base/Sources\" -path:\"deprecated-\"",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#data",
+      "color": {
+        "a": 1,
+        "rgb": 15105570
+      }
+    },
+    {
+      "query": "tag:#architecture",
+      "color": {
+        "a": 1,
+        "rgb": 6072550
+      }
+    },
+    {
+      "query": "tag:#systems",
+      "color": {
+        "a": 1,
+        "rgb": 10568916
+      }
+    },
+    {
+      "query": "tag:#scaling",
+      "color": {
+        "a": 1,
+        "rgb": 7129995
+      }
+    },
+    {
+      "query": "tag:#experiment",
+      "color": {
+        "a": 1,
+        "rgb": 9079800
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1.1,
+  "collapse-forces": true,
+  "centerStrength": 0.35,
+  "repelStrength": 15,
+  "linkStrength": 0.8,
+  "linkDistance": 160,
+  "scale": 1,
+  "close": true
+}

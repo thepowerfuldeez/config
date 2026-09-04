@@ -1,0 +1,125 @@
+/* Clean, table-first rendering for notes with `cssclasses: laguna-kb`. */
+
+.laguna-kb {
+  --file-line-width: 1180px;
+}
+
+.markdown-preview-view.laguna-kb .markdown-preview-sizer,
+.markdown-source-view.mod-cm6.laguna-kb .cm-sizer {
+  max-width: 1180px !important;
+  margin-inline: auto;
+}
+
+.laguna-kb h1 {
+  margin: 0 0 1.1rem;
+  font-size: 1.8em;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.laguna-kb h2 {
+  margin-top: 1.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-size: 1.28em;
+  line-height: 1.25;
+}
+
+.laguna-kb h3 {
+  margin-top: 1.35rem;
+  font-size: 1.08em;
+  line-height: 1.3;
+}
+
+.laguna-kb p,
+.laguna-kb li {
+  line-height: 1.52;
+}
+
+.laguna-kb table {
+  width: 100%;
+  margin: 0.65rem 0 1.15rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.9em;
+  font-variant-numeric: tabular-nums;
+}
+
+.laguna-kb table th,
+.laguna-kb table td {
+  padding: 0.48rem 0.62rem;
+  vertical-align: top;
+  border-color: var(--background-modifier-border);
+}
+
+.laguna-kb table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+.laguna-kb table tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--background-secondary) 58%, transparent);
+}
+
+.laguna-kb table tbody tr:hover {
+  background: var(--background-modifier-hover);
+}
+
+.laguna-kb table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--background-primary);
+  font-weight: 540;
+}
+
+.laguna-kb table th:first-child {
+  left: 0;
+  z-index: 3;
+}
+
+.laguna-kb table tbody tr:nth-child(even) td:first-child {
+  background: color-mix(in srgb, var(--background-secondary) 92%, var(--background-primary));
+}
+
+.laguna-kb table tbody tr:hover td:first-child {
+  background: var(--background-modifier-hover);
+}
+
+.laguna-kb a.internal-link {
+  font-weight: 590;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.laguna-kb code {
+  font-size: 0.88em;
+}
+
+/* Vault images: tidy by default. Optional aliases: `small` and `wide`. */
+
+.markdown-preview-view .image-embed img,
+.markdown-source-view.mod-cm6 .image-embed img {
+  display: block;
+  width: auto;
+  max-width: min(100%, 900px);
+  height: auto;
+  margin: 0.8rem auto;
+  border-radius: 8px;
+}
+
+.image-embed[alt~="small"] img,
+img[alt~="small"] {
+  width: min(360px, 100%) !important;
+}
+
+.image-embed[alt~="wide"] img,
+img[alt~="wide"] {
+  width: 100% !important;
+  max-width: 1180px !important;
+}
