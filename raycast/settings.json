@@ -1,0 +1,327 @@
+{
+  "builtin_package_browser": {
+    "disabledCommands": [
+      "builtin_command_ask-browser"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_calculator": {
+    "disabledCommands": [
+      "builtin_command_ask_calculator"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_calendar": {
+    "disabledCommands": [
+      "builtin_command_ask_calendar"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_finder": {
+    "disabledCommands": [
+      "builtin_command_ask-finder"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_location": {
+    "disabledCommands": [
+      "builtin_command_ask-location"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_raycastExtensions": {
+    "extensions": [
+      {
+        "access": "public",
+        "commands": [
+          {
+            "enabled": true,
+            "name": "index"
+          }
+        ],
+        "name": "kill-process",
+        "owner": "rolandleth",
+        "prefs": [],
+        "title": "Kill Process",
+        "tokenSets": []
+      },
+      {
+        "access": "public",
+        "commands": [
+          {
+            "enabled": true,
+            "name": "caffeinate"
+          },
+          {
+            "enabled": true,
+            "name": "decaffeinate"
+          },
+          {
+            "enabled": true,
+            "name": "caffeinateWhile"
+          },
+          {
+            "enabled": true,
+            "name": "index"
+          },
+          {
+            "enabled": true,
+            "name": "caffeinateToggle"
+          },
+          {
+            "enabled": true,
+            "name": "caffeinateFor"
+          },
+          {
+            "enabled": true,
+            "name": "caffeinateUntil"
+          },
+          {
+            "enabled": true,
+            "name": "addSchedule"
+          },
+          {
+            "enabled": true,
+            "name": "status"
+          }
+        ],
+        "name": "coffee",
+        "owner": "mooxl",
+        "prefs": [],
+        "title": "Coffee",
+        "tokenSets": []
+      },
+      {
+        "access": "public",
+        "commands": [
+          {
+            "enabled": true,
+            "name": "pick-color"
+          },
+          {
+            "enabled": true,
+            "name": "extract-color"
+          },
+          {
+            "enabled": true,
+            "name": "menu-bar"
+          },
+          {
+            "enabled": true,
+            "name": "organize-colors"
+          },
+          {
+            "enabled": true,
+            "name": "favorite-colors"
+          },
+          {
+            "enabled": true,
+            "name": "generate-colors"
+          },
+          {
+            "enabled": true,
+            "name": "color-names"
+          },
+          {
+            "enabled": true,
+            "name": "color-wheel"
+          },
+          {
+            "enabled": true,
+            "name": "convert-color"
+          }
+        ],
+        "name": "color-picker",
+        "owner": "thomas",
+        "prefs": [],
+        "title": "Color Picker",
+        "tokenSets": []
+      },
+      {
+        "access": "public",
+        "commands": [
+          {
+            "enabled": true,
+            "name": "search-history"
+          },
+          {
+            "enabled": true,
+            "name": "new-window"
+          },
+          {
+            "enabled": true,
+            "name": "new-blank-window"
+          },
+          {
+            "enabled": true,
+            "name": "new-little-arc"
+          },
+          {
+            "enabled": true,
+            "name": "search-spaces"
+          },
+          {
+            "enabled": true,
+            "name": "search-tabs"
+          },
+          {
+            "enabled": true,
+            "name": "search-space-tabs"
+          },
+          {
+            "enabled": true,
+            "name": "search-downloads"
+          },
+          {
+            "enabled": true,
+            "name": "new-incognito-window"
+          },
+          {
+            "enabled": true,
+            "name": "new-tab"
+          },
+          {
+            "enabled": true,
+            "name": "menu-bar"
+          },
+          {
+            "enabled": true,
+            "name": "search"
+          },
+          {
+            "enabled": false,
+            "name": "release-notes"
+          },
+          {
+            "enabled": false,
+            "name": "boost-gallery"
+          },
+          {
+            "enabled": false,
+            "name": "new-easel"
+          },
+          {
+            "enabled": false,
+            "name": "reset-space-tabs"
+          }
+        ],
+        "name": "arc",
+        "owner": "the-browser-company",
+        "prefs": [],
+        "title": "Arc",
+        "tokenSets": []
+      }
+    ],
+    "localExtensions": [],
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_raycastPreferences": {
+    "preferencesAdvanced": {
+      "keepWindowVisibleOnResignKey": false,
+      "mainWindowCaptureCopyToClipboard": true,
+      "mainWindowCaptureOpenQuickAccessOverlay": false,
+      "mainWindowCaptureShowInFinder": false,
+      "navigationCommandStyleIdentifierKey": "macos",
+      "pageNavigationCommandKeysIdentifierKey": "squareBrackets",
+      "popToRootTimeout": 90,
+      "raycastWindowEscapeKeyBehavior": 0,
+      "raycastWindowPresentationMode": 0,
+      "useHyperKeyIcon": false
+    },
+    "preferencesAppearance": {
+      "raycastPreferredWindowMode": "default",
+      "raycastShouldFollowSystemAppearance": true,
+      "raycastUI_preferredTextSize": "medium",
+      "showFavoritesInCompactMode": true,
+      "statusBarIsVisible": false
+    },
+    "preferencesGeneral": {
+      "raycastAlternativeEscape": false,
+      "raycastGlobalHotkey": "Control-49"
+    },
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_rootSearch": {
+    "provider_schemaVersion": 1,
+    "rootSearch": [
+      {
+        "hotkey": "Shift-Command-9",
+        "key": "builtin_command_clipboardHistory",
+        "type": "command"
+      }
+    ]
+  },
+  "builtin_package_selected-text": {
+    "disabledCommands": [
+      "builtin_command_ask-selected-text"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_thinking": {
+    "disabledCommands": [
+      "builtin_command_ask-thinking"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "builtin_package_weather": {
+    "disabledCommands": [
+      "builtin_command_ask-weather"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "raycast_version": "1.104.27",
+  "remote_package_chart": {
+    "disabledCommands": [
+      "remote_command_chart"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "remote_package_dalle": {
+    "disabledCommands": [
+      "remote_command_dalle"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "remote_package_flux": {
+    "disabledCommands": [
+      "remote_command_flux"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "remote_package_flux-kontext": {
+    "disabledCommands": [
+      "remote_command_flux-kontext"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "remote_package_gemini_image": {
+    "disabledCommands": [
+      "remote_command_gemini_image"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "remote_package_gpt_image": {
+    "disabledCommands": [
+      "remote_command_gpt_image"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "remote_package_nano_banana": {
+    "disabledCommands": [
+      "remote_command_nano_banana"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "remote_package_stable_diffusion": {
+    "disabledCommands": [
+      "remote_command_stable_diffusion"
+    ],
+    "provider_schemaVersion": 1
+  },
+  "remote_package_web": {
+    "disabledCommands": [
+      "remote_command_web"
+    ],
+    "provider_schemaVersion": 1
+  }
+}

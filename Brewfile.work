@@ -1,0 +1,3 @@
+# Optional work tools; requires access to the private tap.
+tap "poolsideai/poolsi-de"
+brew "poolsideai/poolsi-de/infractl"

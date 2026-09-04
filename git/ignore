@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+proxy_pool.txt
+*.warc.gz
+*.jsonl.gz
+*.parquet
+/scratch/

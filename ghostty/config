@@ -1,0 +1,22 @@
+# Personal Solarized palette.
+theme = Personal Solarized
+
+# Keep text legible when TUIs use palette colors as backgrounds (for example, Codex diffs).
+minimum-contrast = 3
+
+# Scroll 35% farther per gesture for both trackpads and mouse wheels.
+mouse-scroll-multiplier = precision:1.35,discrete:4.05
+
+# Keep Ghostty's bundled JetBrains Mono at its default 13 pt.
+
+# Steady block cursor.
+cursor-style = block
+cursor-style-blink = false
+
+# Keep inactive splits legible while making focus easy to spot.
+unfocused-split-opacity = 0.85
+
+# A cleaner macOS titlebar; the working directory remains in the title.
+macos-titlebar-style = transparent
+macos-titlebar-proxy-icon = hidden
+keybind = shift+enter=text:\n

@@ -2,9 +2,6 @@
 # Keep PATH changes early.
 if [[ -r "$HOME/.local/bin/env" ]]; then
   . "$HOME/.local/bin/env"
-else
-  path=("$HOME/.local/bin" $path)
-  typeset -U path
 fi
 
 # Homebrew prefix for plugin paths; use a safe fallback for non-login shells.
@@ -17,7 +14,6 @@ fi
 alias pip="uv pip"
 alias python="python3"
 alias vim="nvim"
-tabify() { python3 -c "import sys; print('\t'.join(sys.argv[1:]))" "$@" | pbcopy; }
 
 # zsh-autosuggestions
 if [[ -r "$HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh" ]]; then
@@ -57,18 +53,5 @@ fi
 # Nebius CLI path
 if [[ -f "$HOME/.nebius/path.zsh.inc" ]]; then
   source "$HOME/.nebius/path.zsh.inc"
-fi
-# Share history across terminals and suppress duplicate entries.
-HISTFILE="${HISTFILE:-$HOME/.zsh_history}"
-HISTSIZE=50000
-SAVEHIST=50000
-setopt SHARE_HISTORY HIST_IGNORE_ALL_DUPS HIST_SAVE_NO_DUPS
-
-# Machine-specific paths and credentials stay outside this repository.
-[[ ! -r "$HOME/.zshrc.local" ]] || source "$HOME/.zshrc.local"
-
-# Syntax highlighting must load after other interactive widgets.
-if [[ -r "$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]]; then
-  source "$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 fi
 # <<< config repo <<<

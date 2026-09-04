@@ -1,15 +1,30 @@
 {
-    "window.commandCenter": true,
-    "cursor.cpp.enablePartialAccepts": true,
-    "workbench.colorTheme": "Darkula",
-    "terminal.integrated.inheritEnv": false,
-    "git.autofetch": true,
-    "editor.fontSize": 13,
-    "editor.fontFamily": "JetBrains Mono, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "files.autoSave": "afterDelay",
-    "remote.SSH.remotePlatform": {
-        "home": "linux",
-    },
-    "remote.autoForwardPortsSource": "hybrid",
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "window.commandCenter": true,
+  "terminal.integrated.inheritEnv": false,
+  "git.autofetch": true,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "JetBrains Mono, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "files.autoSave": "onFocusChange",
+  "remote.autoForwardPortsSource": "hybrid",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "redhat.telemetry.enabled": true,
+  "git.confirmSync": false,
+  "terminal.integrated.cwd": "${fileDirname}",
+  "git.replaceTagsWhenPull": true,
+  "python.analysis.exclude": [
+    "**/__pycache__",
+    ".git"
+  ],
+  "python.analysis.typeCheckingMode": "standard",
+  "gitlens.launchpad.indicator.enabled": false,
+  "editor.accessibilitySupport": "on",
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.editor"
+  },
+  "jupyter.askForKernelRestart": false,
+  "terminal.external.osxExec": "Ghostty.app"
 }
