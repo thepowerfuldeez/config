@@ -16,7 +16,6 @@ if command -v eza >/dev/null 2>&1; then
 fi
 alias pip="uv pip"
 alias python="python3"
-alias vim="nvim"
 tabify() { python3 -c "import sys; print('\t'.join(sys.argv[1:]))" "$@" | pbcopy; }
 
 # zsh-autosuggestions

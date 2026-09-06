@@ -1,5 +1,4 @@
-# Personal Mac setup. VS Code extensions are installed from vscode-extensions.txt.
-# Refreshed 2026-09-04; only explicitly installed formulae are tracked.
+tap "domt4/autoupdate"
 
 brew "aria2"
 brew "awscli"
@@ -20,7 +19,6 @@ brew "just"
 brew "k3sup"
 brew "kubernetes-cli"
 brew "megatools"
-brew "neovim"
 brew "node"
 brew "pcre2"
 brew "pinentry-mac"

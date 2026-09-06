@@ -9,13 +9,14 @@ SKIP_EXTENSIONS="${SKIP_EXTENSIONS:-0}"
 SKIP_DEFAULT_TERMINAL="${SKIP_DEFAULT_TERMINAL:-0}"
 
 # Refuse to discard custom edits inside the previous managed block.
-python3 - "$HOME/.zshrc" "$REPO_DIR/scripts/legacy-zshrc.snippet" <<'PY_CHECK'
-import re, sys
+python3 - "$HOME/.zshrc" <<'PY_CHECK'
+import hashlib, re, sys
 from pathlib import Path
 p = Path(sys.argv[1])
 s = p.read_text() if p.exists() else ""
 m = re.search(r'(?ms)^# >>> config repo >>>\n.*?^# <<< config repo <<<\n?', s)
-if m and m.group().strip() != Path(sys.argv[2]).read_text().strip():
+known_block = "ed8d255cb051003f8771f69844fe645129e7be64f8e26dd6ba2ed53cbd645ba7"
+if m and hashlib.sha256(m.group().strip().encode()).hexdigest() != known_block:
     sys.exit("Custom edits found in the old managed shell block. Move that block's custom settings to ~/.zshrc.local before restoring; no files were changed.")
 PY_CHECK
 
@@ -48,6 +49,7 @@ if [[ "$SKIP_BREW" != 1 ]]; then
   fi
   eval "$("$BREW_BIN" shellenv)"
   "$BREW_BIN" bundle --file "$REPO_DIR/Brewfile"
+  "$BREW_BIN" trust --command domt4/autoupdate/autoupdate
   if ! grep -q 'brew shellenv' "$HOME/.zprofile" 2>/dev/null; then
     backup "$HOME/.zprofile"
     printf '\neval "$(%s shellenv)"\n' "$BREW_BIN" >> "$HOME/.zprofile"
@@ -56,8 +58,7 @@ fi
 
 mkdir -p "$HOME/.local/bin" "$HOME/.config/shell"
 copy_config "$REPO_DIR/zshrc.snippet" "$HOME/.config/shell/config.zsh"
-# Replace only the old managed block and legacy iTerm integration line.
-# Everything else, including existing local credentials, stays on this Mac.
+# Replace the managed block; preserve other shell settings.
 backup "$HOME/.zshrc"
 python3 - "$HOME/.zshrc" <<'PY'
 import re, sys
@@ -65,13 +66,11 @@ from pathlib import Path
 p = Path(sys.argv[1])
 s = p.read_text() if p.exists() else ""
 s = re.sub(r'(?ms)^# >>> config repo >>>\n.*?^# <<< config repo <<<\n?', '', s)
-s = '\n'.join(line for line in s.splitlines() if not ('.iterm2_shell_integration.zsh' in line and ('source ' in line or '&& .' in line)))
 hook = '[ ! -r "$HOME/.config/shell/config.zsh" ] || source "$HOME/.config/shell/config.zsh"'
 if hook not in s:
     s = hook + '\n' + s.lstrip('\n')
 p.write_text(s.rstrip() + '\n')
 PY
-copy_config "$REPO_DIR/init.vim" "$HOME/.config/nvim/init.vim"
 copy_config "$REPO_DIR/ghostty/config" "$HOME/.config/ghostty/config"
 copy_config "$REPO_DIR/ghostty/themes/Personal Solarized" "$HOME/.config/ghostty/themes/Personal Solarized"
 copy_config "$REPO_DIR/git/ignore" "$HOME/.config/git/ignore"
